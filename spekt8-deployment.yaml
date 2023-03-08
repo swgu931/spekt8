@@ -17,3 +17,5 @@ spec:
           image: elliotxkim/spekt8
           ports:
             - containerPort: 3000
+      serviceAccount: spekt8-sa
+      serviceAccountName: spekt8-sa
