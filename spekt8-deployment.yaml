@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: spekt8
+  name: spekt8-v2
 spec:
   selector:
     matchLabels:
-      component: spekt8
+      component: spekt8-v2
   replicas: 1
   template:
     metadata:
       labels:
-        component: spekt8
+        component: spekt8-v2
     spec:
       containers:
         - name: spekt8
-          image: elliotxkim/spekt8
+          image: lgecloudroboticstask/spekt8:v3
           ports:
             - containerPort: 3000
       serviceAccount: spekt8-sa
