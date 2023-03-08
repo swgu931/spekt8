@@ -1,3 +1,11 @@
+# howto run
+```
+kubectl apply -f fabric8-rbac-v2.yaml
+kubectl apply -f spekt8-deployment.yaml
+kubectl apply -f spekt8-service.yaml
+```
+
+
 # SPEKT<img width="30" alt="portfolio_view" src="https://github.com/spekt8/spekt8/blob/master/dist/images/src/client/images/spekt8-logo-ecbc06d5.png">
 
 SPEKT8 is a new visualization tool for your Kubernetes clusters. It automatically builds logical topologies of your application and infrastructure, which enable your SRE and Ops team to intuitively understand, monitor, and control your containerized, microservices based application. Simply deploy our containerized application directly into your Kubernetes cluster. 
